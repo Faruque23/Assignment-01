@@ -51,3 +51,27 @@ header {
     font-size: 20px;
     justify-self: start;
 }
+
+.pillars-container {
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+.pillar{
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 10px;
+    width: 22%;
+    gap: 20px;
+
+}
+
+.pillars{
+    margin: 40px;
+    justify-content: space-between;
+}
+.icon{
+    height: 80px;
