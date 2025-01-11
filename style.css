@@ -1,6 +1,53 @@
-/* Style for the whole page */
-body{
-    margin:0;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
     padding: 0;
-    background-color: F5F5F5;
+    background-color: #f5f5f5;
+    width: 1080px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f8f9fa;
+    margin: 40px;
+    align-items: center;
+}
+
+.h-btn{
+    color: #117c4f;
+    border-radius: 8px;
+    border-color: #117c4f;
+    height: 30px;
+    width: 80px;
+    margin: 40px 40px;
+    justify-content: center;
+}
+
+.hr-btn{
+    color: #ffffff;
+    border-radius: 8px;
+    border-color: #117c4f;
+    background-color: #117c4f ;
+    height: 50px;
+    width: 200px;
+    margin: 0px 0px;
+    justify-content: left;
+}
+.hero {
+    background-color: #d5f4e6;
+    text-align: left;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    margin: 40px;
+}
+
+.hero-content {
+    margin: 0px;
+    font-size: 20px;
+    justify-self: start;
 }
