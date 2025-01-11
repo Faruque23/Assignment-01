@@ -255,6 +255,7 @@ section{
     margin: 30px;
     border-radius: 15px;
     font-size: 20px;
+    font-weight: 700;
     border-width: .5px;
     
 }
@@ -265,6 +266,7 @@ section{
 
 .donation-options{
     margin: 20px;
+    
 }
 
 .inp{
@@ -347,8 +349,3 @@ footer {
     font-size: larger;
     font-weight: 700;
 }
-
-.social-media{
-    justify-content: space-between;
-}
-
